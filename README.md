@@ -76,6 +76,19 @@ Dashboard składa się z dwóch stron:
 
 - lepsze zrozumienie zachowań klientów i struktury sprzedaży.
 
+📁 Struktura repozytorium
+
+retail-sales-dashboard/
+│
+├── data/
+│   └── retail_sales_dataset.csv
+│
+├── powerbi/
+│   └── dashboard_screenshots/
+│
+└── README.md
+
+
 🧰 Stack technologiczny
 
 - Power BI Desktop
