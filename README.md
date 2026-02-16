@@ -1,83 +1,86 @@
 📊 Retail Sales Dashboard – Power BI
-📌 Opis projektu
+📌 Project Overview
 
-Projekt przedstawia interaktywny dashboard sprzedażowy stworzony w Power BI, którego celem jest wsparcie decyzji menedżerskich w firmie z branży retail.
+This project presents an interactive sales dashboard built in Power BI, designed to support managerial decision-making in a retail environment.
 
-Dashboard umożliwia analizę:
+The dashboard enables analysis of:
 
-- przychodów,
+Revenue performance
 
-- trendów sprzedażowych,
+Sales trends over time
 
-- struktury klientów,
+Customer structure
 
-- wydajności kategorii produktowych.
+Product category performance
 
-🎯 Problem biznesowy
+The goal was to create a clear, executive-level overview while maintaining analytical depth.
 
-Firmy retailowe potrzebują szybkiego dostępu do informacji takich jak:
+🎯 Business Problem
 
-- aktualny poziom sprzedaży,
+Retail companies require fast access to key performance indicators such as:
 
-- zmiany przychodów w czasie,
+Current revenue levels
 
-- najlepiej sprzedające się kategorie,
+Revenue changes over time
 
-- segmenty klientów generujące największą wartość.
+Best-performing product categories
 
-Dane transakcyjne są często obszerne i trudne do interpretacji bez odpowiedniej wizualizacji.
+Customer segments generating the highest value
 
-🧠 Cel projektu
+Transactional data is often large and difficult to interpret without proper visualization and structured reporting.
 
-* zaprojektowanie czytelnego dashboardu typu executive overview,
+🧠 Project Objectives
 
-* umożliwienie analizy sprzedaży z różnych perspektyw (czas, produkt, klient),
+Design a clear executive-level dashboard
 
-* stworzenie narzędzia wspierającego decyzje biznesowe.
+Enable multi-dimensional sales analysis (time, product, customer)
 
-🛠 Zakres prac
-1️⃣ Przygotowanie danych
+Create a decision-support tool for business stakeholders
 
-* wczytanie danych sprzedażowych do Power BI,
+🛠 Scope of Work
+1️⃣ Data Preparation
 
-* walidacja typów danych,
+Imported retail sales dataset into Power BI
 
-* podstawowe czyszczenie (braki, formaty).
+Validated data types
 
-2️⃣ Projekt dashboardu
+Performed basic data cleaning (missing values, formatting corrections)
 
-Dashboard składa się z dwóch stron:
+2️⃣ Dashboard Design
 
-- Executive Sales Overview
+The dashboard consists of two main pages:
 
-  * całkowity przychód,
+Executive Sales Overview
 
-  * liczba transakcji,
+Total revenue
 
-  * trend sprzedaży w czasie,
+Number of transactions
 
-  * przychód według kategorii produktów.
+Sales trend over time
 
-- Customer & Product Analysis
+Revenue by product category
 
-  * struktura sprzedaży według płci,
+Customer & Product Analysis
 
-  * segmentacja klientów według wieku,
+Sales structure by gender
 
-  * średnia wartość koszyka,
+Customer age segmentation
 
-  * zależność ilości sprzedanych produktów od wartości transakcji.
+Average basket value
 
-📈 Rezultaty
+Relationship between quantity sold and transaction value
 
-- szybki dostęp do kluczowych metryk sprzedażowych,
+📈 Results
 
-- możliwość identyfikacji trendów i sezonowości,
+Fast access to key sales metrics
 
-- lepsze zrozumienie zachowań klientów i struktury sprzedaży.
+Clear identification of trends and seasonality
 
-📁 Struktura repozytorium
+Improved understanding of customer behavior and sales structure
 
+The dashboard demonstrates practical application of BI tools in retail decision support.
+
+📁 Repository Structure
 retail-sales-dashboard/
 │
 ├── data/
@@ -88,23 +91,22 @@ retail-sales-dashboard/
 │
 └── README.md
 
+🧰 Tech Stack
 
-🧰 Stack technologiczny
+Power BI Desktop
 
-- Power BI Desktop
+Power Query
 
-- Power Query
+DAX (basic measures and KPIs)
 
-- DAX (podstawowe miary)
+🚀 Possible Extensions
 
-🚀 Możliwe rozszerzenia
+Automated data refresh
 
-- automatyczne odświeżanie danych,
+AI-generated textual insights integration
 
-- integracja z AI (generowanie insightów tekstowych),
+Sales forecasting using time-series analysis
 
-- prognozowanie sprzedaży.
+👩‍💻 Author
 
-👩‍💻 Autor
-
-Projekt wykonany jako element portfolio Data Analyst / Specjalisty ds. AI.
+Created as part of a Data Analyst / AI-oriented portfolio project, showcasing practical BI implementation for retail analytics.
