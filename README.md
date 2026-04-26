@@ -1,86 +1,76 @@
-📊 Retail Sales Dashboard – Power BI
-📌 Project Overview
+# 📊 Retail Sales Dashboard – Power BI
 
-This project presents an interactive sales dashboard built in Power BI, designed to support managerial decision-making in a retail environment.
+> Interaktywny dashboard sprzedażowy wspierający podejmowanie decyzji menedżerskich w środowisku retail
 
-The dashboard enables analysis of:
+## 📌 O projekcie
 
-Revenue performance
+Projekt przedstawia interaktywny dashboard sprzedażowy zbudowany w Power BI, zaprojektowany do wsparcia podejmowania decyzji menedżerskich w środowisku handlu detalicznego.
 
-Sales trends over time
+Dashboard umożliwia analizę:
+- wyników przychodowych
+- trendów sprzedażowych w czasie
+- struktury klientów
+- wydajności kategorii produktowych
 
-Customer structure
+Celem było stworzenie przejrzystego widoku executive-level przy zachowaniu głębi analitycznej.
 
-Product category performance
+## 🎯 Problem biznesowy
 
-The goal was to create a clear, executive-level overview while maintaining analytical depth.
+Firmy detaliczne wymagają szybkiego dostępu do kluczowych wskaźników efektywności takich jak:
+- aktualny poziom przychodów
+- zmiany przychodów w czasie
+- najlepiej sprzedające się kategorie produktów
+- segmenty klientów generujące najwyższą wartość
 
-🎯 Business Problem
+Dane transakcyjne są często duże i trudne do interpretacji bez odpowiedniej wizualizacji i strukturalnego raportowania.
 
-Retail companies require fast access to key performance indicators such as:
+## 🧠 Cele projektu
 
-Current revenue levels
+- Zaprojektowanie przejrzystego dashboardu na poziomie executive
+- Umożliwienie wielowymiarowej analizy sprzedaży (czas, produkt, klient)
+- Stworzenie narzędzia wspierającego decyzje dla interesariuszy biznesowych
 
-Revenue changes over time
+## 🛠️ Zakres prac
 
-Best-performing product categories
+### 1️⃣ Przygotowanie danych
+- Import datasetu sprzedaży detalicznej do Power BI
+- Walidacja typów danych
+- Podstawowe czyszczenie danych (brakujące wartości, korekty formatowania)
 
-Customer segments generating the highest value
+### 2️⃣ Projekt dashboardu
 
-Transactional data is often large and difficult to interpret without proper visualization and structured reporting.
+Dashboard składa się z dwóch głównych stron:
 
-🧠 Project Objectives
+**Strona 1 – Executive Sales Overview**
+- Łączny przychód
+- Liczba transakcji
+- Trend sprzedaży w czasie
+- Przychód wg kategorii produktowej
 
-Design a clear executive-level dashboard
+**Strona 2 – Customer & Product Analysis**
+- Struktura sprzedaży wg płci
+- Segmentacja wiekowa klientów
+- Średnia wartość koszyka
+- Zależność między ilością sprzedaną a wartością transakcji
 
-Enable multi-dimensional sales analysis (time, product, customer)
+## 📈 Wyniki
 
-Create a decision-support tool for business stakeholders
+- Szybki dostęp do kluczowych metryk sprzedażowych
+- Czytelna identyfikacja trendów i sezonowości
+- Lepsze zrozumienie zachowań klientów i struktury sprzedaży
+- Dashboard demonstruje praktyczne zastosowanie narzędzi BI we wsparciu decyzji retailowych
 
-🛠 Scope of Work
-1️⃣ Data Preparation
+## 🧰 Stack technologiczny
 
-Imported retail sales dataset into Power BI
+| Technologia | Zastosowanie |
+|---|---|
+| Power BI Desktop | Dashboard, wizualizacje, strony raportów |
+| Power Query | Import i transformacja danych |
+| DAX | Podstawowe miary i KPI (przychód, transakcje, średni koszyk) |
 
-Validated data types
+## 📁 Struktura repozytorium
 
-Performed basic data cleaning (missing values, formatting corrections)
-
-2️⃣ Dashboard Design
-
-The dashboard consists of two main pages:
-
-Executive Sales Overview
-
-Total revenue
-
-Number of transactions
-
-Sales trend over time
-
-Revenue by product category
-
-Customer & Product Analysis
-
-Sales structure by gender
-
-Customer age segmentation
-
-Average basket value
-
-Relationship between quantity sold and transaction value
-
-📈 Results
-
-Fast access to key sales metrics
-
-Clear identification of trends and seasonality
-
-Improved understanding of customer behavior and sales structure
-
-The dashboard demonstrates practical application of BI tools in retail decision support.
-
-📁 Repository Structure
+```
 retail-sales-dashboard/
 │
 ├── data/
@@ -90,23 +80,15 @@ retail-sales-dashboard/
 │   └── dashboard_screenshots/
 │
 └── README.md
+```
 
-🧰 Tech Stack
+## 🚀 Możliwe rozszerzenia
 
-Power BI Desktop
+- Automatyczne odświeżanie danych
+- Integracja z insightami tekstowymi generowanymi przez AI
+- Prognozowanie sprzedaży z użyciem analizy szeregów czasowych
 
-Power Query
+## 👩‍💻 Autor
 
-DAX (basic measures and KPIs)
-
-🚀 Possible Extensions
-
-Automated data refresh
-
-AI-generated textual insights integration
-
-Sales forecasting using time-series analysis
-
-👩‍💻 Author
-
-Created as part of a Data Analyst / AI-oriented portfolio project, showcasing practical BI implementation for retail analytics.
+**Izabela Popiołek** – Specjalista ds. Digitalizacji | Power BI Developer | AI Analyst  
+[LinkedIn](https://linkedin.com/in/izabela-popiolek) | [GitHub](https://github.com/izabela12074)
